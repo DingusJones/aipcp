@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit — AIPCP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Please wait. The art is being curated.</p>
+  </div>
+
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-mark">AIPCP</span>
+        <span class="nav-logo-tag">Post-Contemporary Praxis</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="submit.html">Submit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Open Call: Submissions</h1>
+      <p class="subtitle">The Art-ifice Institute accepts submissions from anyone, regardless of talent, training, or good judgment.</p>
+    </div>
+  </header>
+
+  <!-- Guidelines -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="section-header">
+        <h2>Submission Guidelines</h2>
+      </div>
+      <ol class="guidelines">
+        <li>All mediums accepted. Including medium-rare.</li>
+        <li>Submissions must be original. Or original enough. We're not your art history professor.</li>
+        <li>Please include a 200-word artist statement. We will not read it.</li>
+        <li>JPEG, PNG, TIFF, BMP, GIF, or screenshot of a file that is one of those.</li>
+        <li>File size limit: none. Emotional size limit: also none.</li>
+        <li>Submissions reviewed by Otto Matic, our AI programs director. Otto has fired the HR director and cannot be stopped.</li>
+      </ol>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Form -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="section-header">
+        <h2>Submit Your Work</h2>
+      </div>
+      <form class="submission-form">
+        <div class="form-field">
+          <label for="name">Name / Alias / Vibe</label>
+          <input type="text" id="name" name="name" placeholder="Your name or alias or vibe">
+        </div>
+        <div class="form-field">
+          <label for="email">Email (we won't email you back)</label>
+          <input type="email" id="email" name="email" placeholder="we won't email you back">
+        </div>
+        <div class="form-field">
+          <label for="title">Artwork Title</label>
+          <input type="text" id="title" name="title" placeholder="Untitled (just like 80% of submissions)">
+        </div>
+        <div class="form-field">
+          <label for="medium">Medium</label>
+          <select id="medium" name="medium">
+            <option value="">Select a medium</option>
+            <option value="oil">Oil on canvas</option>
+            <option value="digital">Digital</option>
+            <option value="found">Found object</option>
+            <option value="screenshot">Screenshot</option>
+            <option value="concept">Concept</option>
+            <option value="banana">Banana</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="statement">Artist Statement (200 words — we will not read them)</label>
+          <textarea id="statement" name="statement" rows="6" placeholder="Write 200 words. We will not read them."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Submit (we're not looking)</button>
+        <div class="form-message">Your submission has been received and will be ignored by Otto Matic within 4-6 business days. Thank you for your contribution to the discourse.</div>
+      </form>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Previous Accepted Submissions -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Previously "Accepted" Submissions</h2>
+        <p class="meta">These are the kinds of things Otto Matic has approved. Otto cannot be stopped.</p>
+      </div>
+      <div class="artwork-grid">
+        <a href="artwork/feline-energy-3.html" class="artwork-card">
+          <div class="artwork-image art-feline-energy"></div>
+          <div class="artwork-meta">
+            <span class="title">Feline Energy #3</span>
+            <span class="artist">@nft_hustler_xv</span>
+            <span class="price">2.1 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/late-capitalism.html" class="artwork-card">
+          <div class="artwork-image art-late-capitalism"></div>
+          <div class="artwork-meta">
+            <span class="title">Late Capitalism (Oil on Canvas)</span>
+            <span class="artist">@hustle_over_heals</span>
+            <span class="price">0.9 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/my-thesis.html" class="artwork-card">
+          <div class="artwork-image art-my-thesis"></div>
+          <div class="artwork-meta">
+            <span class="title">My Thesis</span>
+            <span class="artist">@unaccredited_curator</span>
+            <span class="price">0.3 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/american-still-life.html" class="artwork-card">
+          <div class="artwork-image art-american-still-life"></div>
+          <div class="artwork-meta">
+            <span class="title">American Still Life</span>
+            <span class="artist">@mclovin_official</span>
+            <span class="price">0.5 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/pixel-247.html" class="artwork-card">
+          <div class="artwork-image art-pixel-247"></div>
+          <div class="artwork-meta">
+            <span class="title">Pixel #247 of 16,777,216</span>
+            <span class="artist">@generative_bro</span>
+            <span class="price">0.01 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/i-made-this-in-4-minutes.html" class="artwork-card">
+          <div class="artwork-image art-i-made-this"></div>
+          <div class="artwork-meta">
+            <span class="title">I Made This in 4 Minutes</span>
+            <span class="artist">@ai_bro_2024</span>
+            <span class="price">0.8 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/found-object-my-left-shoe.html" class="artwork-card">
+          <div class="artwork-image art-found-object"></div>
+          <div class="artwork-meta">
+            <span class="title">Found Object (My Left Shoe)</span>
+            <span class="artist">@dada_kid_99</span>
+            <span class="price">1.2 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/dads-powerpoint.html" class="artwork-card">
+          <div class="artwork-image art-dads-powerpoint"></div>
+          <div class="artwork-meta">
+            <span class="title">Dad's PowerPoint</span>
+            <span class="artist">@corporate_escapee</span>
+            <span class="price">0.6 ETH</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>The Art-ifice Institute</h4>
+          <p>A WeWork That Closed<br>New York, NY 10001<br>(no phone — the number was curated out)</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="submit.html">Submit Work</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Supporters</h4>
+          <ul>
+            <li>Ponzl Energy</li>
+            <li>Grift Capital Partners</li>
+            <li>Sapsuck &amp; Burne LLP</li>
+            <li>Gluk Gluk Beverages</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2026 The Art-ifice Institute of Post-Contemporary Praxis. All rights reserved. No rights reserved. Rights are a construct.</p>
+    </div>
+  </footer>
+
+  <div class="cookie-banner">
+    <p>We use cookies. We don't track you because we don't care about you.</p>
+    <button>Whatever</button>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

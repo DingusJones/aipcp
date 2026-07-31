@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIPCP — The Art-ifice Institute of Post-Contemporary Praxis</title>
+  <meta name="description" content="The Art-ifice Institute of Post-Contemporary Praxis. Defining what comes next, before it arrives.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loading Spinner -->
+  <div class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Please wait. The art is being curated.</p>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-mark">AIPCP</span>
+        <span class="nav-logo-tag">Post-Contemporary Praxis</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="submit.html">Submit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>The Art-ifice Institute<br>of Post-Contemporary Praxis</h1>
+    <p class="hero-tagline">Defining what comes next, before it arrives.</p>
+    <p class="hero-secondary-tag">Previously known as nothing.</p>
+    <button class="hero-cta" onclick="document.querySelector('#featured').scrollIntoView({behavior:'smooth'})">Enter the Collection</button>
+  </section>
+
+  <!-- Now Showing -->
+  <section class="now-showing">
+    <div class="now-showing-content">
+      <p class="caption">Now Showing</p>
+      <h3>Old Masters, New Disasters</h3>
+      <p class="caption">July 2026 — Indefinitely</p>
+      <p class="caption" style="margin-top:1rem">Curated by Phil Canvas · Sponsored by Sapsuck &amp; Burne LLP</p>
+    </div>
+  </section>
+
+  <!-- Featured Works -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Works</h2>
+        <p class="caption">A selection from across our four exhibitions</p>
+      </div>
+      <div class="artwork-grid">
+        <a href="artwork/mona-lisa-after-filter.html" class="artwork-card">
+          <div class="artwork-image art-mona-lisa"></div>
+          <div class="artwork-meta">
+            <span class="title">Mona Lisa (After the Filter)</span>
+            <span class="artist">Leanardo da Vinci Jr.</span>
+            <span class="price">$4.2M</span>
+          </div>
+        </a>
+        <a href="artwork/emergence-1.html" class="artwork-card">
+          <div class="artwork-image art-emergence"></div>
+          <div class="artwork-meta">
+            <span class="title">Emergence #1–10,000</span>
+            <span class="artist">The Void Engine</span>
+            <span class="price">0.4 ETH</span>
+          </div>
+        </a>
+        <a href="artwork/banana-taped.html" class="artwork-card">
+          <div class="artwork-image art-banana-taped"></div>
+          <div class="artwork-meta">
+            <span class="title">Banana (Taped)</span>
+            <span class="artist">Maurizio Catt-elán't</span>
+            <span class="price">$6.2M</span>
+          </div>
+        </a>
+        <a href="artwork/the-scream-notification-anxiety.html" class="artwork-card">
+          <div class="artwork-image art-scream"></div>
+          <div class="artwork-meta">
+            <span class="title">The Scream (Notification Anxiety)</span>
+            <span class="artist">Edvard Munchkin</span>
+            <span class="price">$2.8M</span>
+          </div>
+        </a>
+        <a href="artwork/composition-in-beige.html" class="artwork-card">
+          <div class="artwork-image art-composition-beige"></div>
+          <div class="artwork-meta">
+            <span class="title">Composition in Beige</span>
+            <span class="artist">Gray Area</span>
+            <span class="price">$890K</span>
+          </div>
+        </a>
+        <a href="artwork/feline-energy-3.html" class="artwork-card">
+          <div class="artwork-image art-feline-energy"></div>
+          <div class="artwork-meta">
+            <span class="title">Feline Energy #3</span>
+            <span class="artist">@nft_hustler_xv</span>
+            <span class="price">2.1 ETH</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pull Quote -->
+  <section class="pull-quote">
+    <div class="container-narrow">
+      <blockquote>"We are not a museum. We are not a gallery. We are a praxis. Whatever that means."</blockquote>
+      <cite>— Ivana Curratored, Chair of Acquisitions &amp; Vibes</cite>
+    </div>
+  </section>
+
+  <!-- Upcoming -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="section-header">
+        <h2>Upcoming</h2>
+      </div>
+      <div class="upcoming-list">
+        <div class="upcoming-item">
+          <span class="upcoming-title">Prompt &amp; Circumstance</span>
+          <span class="upcoming-status">Opening Soon</span>
+        </div>
+        <div class="upcoming-item">
+          <span class="upcoming-title">Priced to Groan</span>
+          <span class="upcoming-status">By Appointment Only</span>
+        </div>
+        <div class="upcoming-item">
+          <span class="upcoming-title">Sub-Standard Submissions</span>
+          <span class="upcoming-status">Ongoing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section class="section">
+    <div class="container">
+      <p class="caption" style="text-align:center; margin-bottom:var(--space-md)">With Support From</p>
+      <div class="sponsors-strip">
+        <div class="sponsor">
+          <div class="sponsor-name">Ponzl Energy</div>
+          <div class="sponsor-tag">Powering the Unpowered</div>
+        </div>
+        <div class="sponsor">
+          <div class="sponsor-name">Grift Capital Partners</div>
+          <div class="sponsor-tag">Investing in the Intangible</div>
+        </div>
+        <div class="sponsor">
+          <div class="sponsor-name">Sapsuck &amp; Burne LLP</div>
+          <div class="sponsor-tag">We Know What It's Worth</div>
+        </div>
+        <div class="sponsor">
+          <div class="sponsor-name">Gluk Gluk Beverages</div>
+          <div class="sponsor-tag">Pretending to Understand Art</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>The Art-ifice Institute</h4>
+          <p>A WeWork That Closed<br>New York, NY 10001<br>(no phone — the number was curated out)</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="submit.html">Submit Work</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Supporters</h4>
+          <ul>
+            <li>Ponzl Energy</li>
+            <li>Grift Capital Partners</li>
+            <li>Sapsuck &amp; Burne LLP</li>
+            <li>Gluk Gluk Beverages</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2026 The Art-ifice Institute of Post-Contemporary Praxis. All rights reserved. No rights reserved. Rights are a construct.</p>
+    </div>
+  </footer>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner">
+    <p>We use cookies. We don't track you because we don't care about you.</p>
+    <button>Whatever</button>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
